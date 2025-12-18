@@ -1,0 +1,7 @@
+此文件夹用于放置角色相关内容;
+建立独立文件夹用于放置角色;
+命名规范为"Char_(角色名)"
+所有采用同一种骨骼的骨骼网格体,都放在该文件夹根目录里;
+动画放在Anima文件夹里,材质放在Materical文件夹里,贴图放在Texture文件夹里,碰撞体积、骨骼等放在Other文件夹里;
+材质统一引用根目录的"M_CharMaster"为母材质,创建子材质,并放在对应的角色文件夹的Materical文件夹里;
+其中还包括了SK_Mannequin,SK_Mannequin_Female两个小白人文件,并保留了UE4_Mannequin_Skeleton骨骼,如果需要重定向小白人骨骼,则采用这个骨骼即可.
